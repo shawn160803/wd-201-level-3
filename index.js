@@ -64,8 +64,8 @@ const formattedDate = (d) => {
 };
 
 var dateToday = new Date();
-const today = formattedDate(dateToday);
-const yesterday = formattedDate(
+const TODAY = formattedDate(dateToday);
+const YESTERDAY = formattedDate(
   new Date(new Date().setDate(dateToday.getDate() - 1))
 );
 const TOMORROW = formattedDate(
